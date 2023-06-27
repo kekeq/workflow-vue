@@ -42,15 +42,15 @@ const saveConfig = () => {
 <style lang="scss">
 // 开始结束按钮
 .icon-circle {
-  border-radius: 50%;
+  border-radius: 150px / 70px;
   border: none;
 
   &.start {
-    background: radial-gradient(circle at 70px 70px, #00B289, #eee);
+    background: radial-gradient(circle at 150px 70px, #00e1ff, #00e1ff);
   }
 
   &.end {
-    background: radial-gradient(circle at 70px 70px, #FE6752, #eee);
+    background: radial-gradient(circle at 150px 70px, #eee, #eee);
   }
 }
 </style>

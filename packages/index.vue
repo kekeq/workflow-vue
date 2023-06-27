@@ -77,11 +77,11 @@
             top: areaPoint.y + 'px',
             width: areaPoint.w + 'px',
             height: areaPoint.h + 'px',
-          }" @dblclick="changeWriteStatus" @mousedown.stop="componentMouseDown($event, activeComponet!, true)">
-            <div class="shape-point left-up" @mousedown.stop="changeSizeStart($event, 'lu', activeComponet!)"></div>
-            <div class="shape-point right-up" @mousedown.stop="changeSizeStart($event, 'ru', activeComponet!)"></div>
-            <div class="shape-point right-down" @mousedown.stop="changeSizeStart($event, 'rd', activeComponet!)"></div>
-            <div class="shape-point left-down" @mousedown.stop="changeSizeStart($event, 'ld', activeComponet!)"></div>
+          }" @dblclick="changeWriteStatus" @mousedown.stop="componentMouseDown($event, activeComponet, true)">
+            <div class="shape-point left-up" @mousedown.stop="changeSizeStart($event, 'lu', activeComponet)"></div>
+            <div class="shape-point right-up" @mousedown.stop="changeSizeStart($event, 'ru', activeComponet)"></div>
+            <div class="shape-point right-down" @mousedown.stop="changeSizeStart($event, 'rd', activeComponet)"></div>
+            <div class="shape-point left-down" @mousedown.stop="changeSizeStart($event, 'ld', activeComponet)"></div>
             <div v-show="editStatus && selectedComponents.length < 2" ref="editorContainerRef" class="text-content"
               contenteditable @blur="writeContainerBlur" @keydown.enter="writeContainerBlur"
               v-text="activeComponet.displayName"></div>

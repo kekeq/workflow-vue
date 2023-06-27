@@ -20,7 +20,7 @@ export default {
       className: 'icon-circle start',
       label: '开始',
       attr: {
-        w: 70,
+        w: 140,
         x: 0,
         h: 70,
         y: 0
@@ -45,7 +45,7 @@ export default {
       className: 'icon-circle end',
       label: '结束',
       attr: {
-        w: 70,
+        w: 140,
         x: 0,
         h: 70,
         y: 0
