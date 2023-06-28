@@ -1,6 +1,6 @@
 {
-  "name": "workflow-vue",
-  "version": "1.0.0",
+  "name": "workflow-vue3",
+  "version": "1.0.1",
   "description": "workflow drawing and configuration based on vue3",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roy-kang/workflow-vue.git"
+    "url": "git+https://github.com/kekeq/workflow-vue.git"
   },
   "keywords": [
     "vue3",
@@ -37,12 +37,12 @@
     "canvas",
     "chart"
   ],
-  "author": "roy-kang/kekeq",
+  "author": "kekeq",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roy-kang/workflow-vue/issues"
+    "url": "https://github.com/kekeq/workflow-vue/issues"
   },
-  "homepage": "https://github.com/roy-kang/workflow-vue#readme",
+  "homepage": "https://github.com/kekeq/workflow-vue#readme",
   "peerDependencies": {
     "element-plus": "^2.3.7",
     "vue": ">=3.2.0"
@@ -50,25 +50,25 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
-    "@ls-lint/ls-lint": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.37.0",
-    "@typescript-eslint/parser": "^5.37.0",
+    "@ls-lint/ls-lint": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "eslint": "^6.8.0",
-    "eslint-plugin-vue": "^9.5.1",
+    "eslint-plugin-vue": "^9.15.1",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "postcss": "^8.3.3",
-    "postcss-scss": "^4.0.5",
-    "sass": "^1.54.9",
-    "stylelint": "^14.11.0",
+    "lint-staged": "^13.2.3",
+    "postcss": "^8.4.24",
+    "postcss-scss": "^4.0.6",
+    "sass": "^1.63.6",
+    "stylelint": "^14.16.1",
     "stylelint-config-standard": "^28.0.0",
     "typescript": "^4.8.3",
     "vite": "^4.3.9",
-    "vite-plugin-dts": "^1.5.0"
+    "vite-plugin-dts": "^2.3.0"
   },
   "dependencies": {
-    "element-plus": "^2.3.3",
+    "element-plus": "^2.3.7",
     "vue": "3.3.4"
   },
   "lint-staged": {
