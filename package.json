@@ -72,7 +72,6 @@
     "vue": "3.3.4"
   },
   "lint-staged": {
-    "packages/**/*.{ts,vue}": "eslint --fix",
-    "packages/**/*.scss": "stylelint --fix"
+    "packages/**/*.{ts,vue}": "eslint --fix"
   }
 }

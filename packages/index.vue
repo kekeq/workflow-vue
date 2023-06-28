@@ -40,11 +40,27 @@
               height: component.attr.h + 'px',
               zIndex: index
             }">
+            <!-- 修改样式 -->
             <div :class="['component-container', component.className]"
               @mousedown.stop="componentMouseDown($event, component)"
               @mouseup.stop="drawLineEnd($event, 'parent', component)"
               @mousemove.self="componentMouseMove($event, component)" @mouseleave="drawLineLeave">
-              {{ editStatus && activeComponet === component ? '' : component.displayName }}
+              <section
+                  class="flow-path-card approver"
+                  :style="{ width: '100%', height: '100%' }"
+              >
+              <header class="header">
+                <div class="title-box">
+                  <span class="title-text">{{ editStatus && activeComponet === component ? '' : component.displayName }}</span>
+                </div>
+                <div class="actions">
+                  <i class="el-icon-close icon"></i>
+                </div>
+              </header>
+              <div class="body">
+                <div class="text">{{ editStatus && activeComponet === component ? '' : component.displayName }}</div>
+              </div>
+              </section>
             </div>
             <div class="shape-point up" :style="{
               left: component.attr.w * 0.5 + 'px',
@@ -817,3 +833,7 @@ defineExpose({
   }
 })
 </script>
+
+<style lang="scss" scoped>
+@import "flow-card";
+</style>

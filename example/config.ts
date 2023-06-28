@@ -20,9 +20,9 @@ export default {
       className: 'icon-circle start',
       label: '开始',
       attr: {
-        w: 140,
+        w: 220,
         x: 0,
-        h: 70,
+        h: 86,
         y: 0
       },
       props: [
@@ -45,9 +45,9 @@ export default {
       className: 'icon-circle end',
       label: '结束',
       attr: {
-        w: 140,
+        w: 220,
         x: 0,
-        h: 70,
+        h: 86,
         y: 0
       },
       props: [
@@ -70,9 +70,9 @@ export default {
       className: '',
       label: '审批节点',
       attr: {
-        w: 100,
+        w: 220,
         x: 0,
-        h: 38,
+        h: 86,
         y: 0
       },
       props: [
@@ -110,9 +110,9 @@ export default {
           label: '任务类型',
           type: 'select',
           attr: {
-            w: 100,
+            w: 220,
             x: 0,
-            h: 38,
+            h: 86,
             y: 0
           },
           value: 'Major'
@@ -125,9 +125,9 @@ export default {
       className: '',
       label: '脚本节点',
       attr: {
-        w: 100,
+        w: 220,
         x: 0,
-        h: 38,
+        h: 86,
         y: 0
       },
       props: [
@@ -179,9 +179,9 @@ export default {
       className: '',
       label: '业务节点',
       attr: {
-        w: 100,
+        w: 220,
         x: 0,
-        h: 38,
+        h: 86,
         y: 0
       },
       props: [
@@ -242,9 +242,9 @@ export default {
       className: '',
       label: '分支-决策',
       attr: {
-        w: 100,
+        w: 220,
         x: 0,
-        h: 38,
+        h: 86,
         y: 0
       },
       props: [
@@ -273,9 +273,9 @@ export default {
       className: '',
       label: '分支-并行',
       attr: {
-        w: 100,
+        w: 220,
         x: 0,
-        h: 38,
+        h: 86,
         y: 0
       },
       props: [
@@ -298,9 +298,9 @@ export default {
       className: '',
       label: '分支-合并',
       attr: {
-        w: 100,
+        w: 220,
         x: 0,
-        h: 38,
+        h: 86,
         y: 0
       },
       props: [

@@ -41,16 +41,16 @@ const saveConfig = () => {
 
 <style lang="scss">
 // 开始结束按钮
-.icon-circle {
-  border-radius: 150px / 70px;
-  border: none;
-
-  &.start {
-    background: radial-gradient(circle at 150px 70px, #00e1ff, #00e1ff);
-  }
-
-  &.end {
-    background: radial-gradient(circle at 150px 70px, #eee, #eee);
-  }
-}
+//.icon-circle {
+//  border-radius: 150px / 70px;
+//  border: none;
+//
+//  &.start {
+//    background: radial-gradient(circle at 150px 70px, #00e1ff, #00e1ff);
+//  }
+//
+//  &.end {
+//    background: radial-gradient(circle at 150px 70px, #eee, #eee);
+//  }
+//}
 </style>
